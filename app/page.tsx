@@ -10,7 +10,7 @@ const Page = () => {
   const [start, setStart] = useState(0);
   const [droped, setDroped] = useState(0);
 
-  const [selectedCard , setSelectedCard] = useState(null)
+  const [selectedCard , setSelectedCard] = useState<number | null>(null)
   const SetSelectedCard = (index:number) => {
     setSelectedCard(index)
   }
