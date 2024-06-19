@@ -43,7 +43,7 @@ const Page = () => {
     <div className="app">
       <h1 className="text-3xl text-center my-5 font-bold">Product Grid</h1>
       <div className="card-container">
-        {cards.map((card, index) => (
+        {cards.map((card:any, index:number) => (
           <DraggableCard
             key={card.id}
             card={card}
